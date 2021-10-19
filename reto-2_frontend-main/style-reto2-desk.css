@@ -1,0 +1,231 @@
+body{
+    font-size: 18px;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+}
+
+#flex-cont1{
+    display: flex;
+    justify-content: left;
+    padding: 1% 0 1% 0;
+    background-color: white;
+}
+
+#flex-cont1 img{
+    height: 1%;
+    width: 11%;
+    margin: 0% 19% 0 7%;
+    margin-top: 0.5%;
+}
+
+#flex-cont1-item1{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin-top: 0.5%;
+}
+
+#flex-cont1-item1 button:hover{
+    border-radius: 1rem;
+    border-bottom: red;
+}
+#flex-cont1-item1 button{
+    margin: 2% 6.5% 4% 0;
+    display: inline-block;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    border:none;
+    color: gray;
+    background-color: white;
+    font-size: 1.05rem;
+}
+
+#flex-cont1-item2, #flex-cont2-item1 button, #flex-cont7-4 button{
+    display: inline-block;
+    background: rgb(48,211,92);
+    background: linear-gradient(90deg, rgba(48,211,92,1) 0%, rgba(42,182,217,1) 100%);
+    border-radius: 2rem;
+    padding: 1rem 2.6rem 1rem 2.6rem;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1rem;
+}
+
+#flex-cont1-item2{
+    text-align: center;
+    margin: 0 0 0 16%;
+    font-size: 1rem;
+}
+
+.flex-cont2{
+    display: flex;
+    justify-content: right;
+    background-color: #fafafa;
+    height: 51rem;
+    column-gap: 16rem;
+}
+
+#flex-cont2-item1{
+    width: 30rem;
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 8rem;
+}
+
+.imgs1{
+    align-items: flex-end;
+    width: 62rem;
+    height: 62rem;
+}
+
+#flex-cont2-item1 h2{
+    font-weight: 300;
+    color: 	#141d61;
+    font-size: 4rem;
+}
+
+#flex-cont2-item1 p, #flex-cont3-item1 p, #flex-cont4-item p, #flex-cont6-item p{
+    font-family: 'Public Sans', sans-serif;
+    color: grey;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+#flex-cont3{
+    display: flex;
+    background-color: #F0F0F0;
+    
+}
+
+#flex-cont3-item1 h3,#flex-cont5 h4{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    color: 	#141d61;
+    font-size: 2.9rem;
+}
+
+#flex-cont3-item1{
+    font-family: 'Public Sans', sans-serif;
+    display: inline-block;
+    width: 45rem;
+    margin-left: 10rem;
+}
+
+#flex-cont4{
+    display: flex;
+    column-gap: 7rem;
+    justify-content: center;
+    background-color: #F0F0F0;
+    height: 30rem;
+}
+
+#flex-cont4-item{
+    width: 19rem;
+    margin-top: 3rem;
+}
+
+#flex-cont4-item h4{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    color: 	#141d61;
+    font-size: 2rem;
+}
+
+#flex-cont5{
+    display: flex;
+    background-color: #fafafa;
+    justify-content: left;
+    margin-left: 10rem;
+}
+
+#flex-cont6{
+    margin-left: 10rem;
+    display: flex;
+    justify-content: left;
+    background-color: #FAFAFA;
+    height: 30rem;
+}
+
+.imgs3-1{
+    width: 22rem;
+    height: 14.6rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.imgs3{
+    width: 22rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+#flex-cont6-item{
+    width: 125rem;
+    height: 33rem;
+}
+
+#flex-cont6-item h5{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    color: 	grey;
+
+}
+
+#flex-cont6-item h6{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    color: 	#141d61;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+#flex-cont6-item h6:hover, #flex-cont7-2 p:hover, #flex-cont7-3 p:hover{
+    color: rgb(48,211,92);
+}
+
+#flex-cont6-item h5,#flex-cont6-item h6,#flex-cont6-item p{
+    margin-left: 2.2rem;
+    margin-bottom: 0px;
+    width: 18rem;
+}
+footer{
+    margin-top: 5rem;
+}
+
+#flex-cont7{
+    display: flex;
+    column-gap: 15rem;
+    background-color: #424666;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#flex-cont7-1, #flex-cont7-2, #flex-cont7-3, #flex-cont7-4{
+    display: inline-block;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+#flex-cont7-1{
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+#flex-cont7-4{
+    margin-left: 19rem;
+}
+
+#flex-cont7-4 p{
+    color: grey;
+}
+
+#flex-cont7-4 button{
+    margin-left: 3rem;
+}
