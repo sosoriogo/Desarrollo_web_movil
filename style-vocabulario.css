@@ -1,0 +1,106 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+
+}
+
+body{    background-color:lightgrey;
+}
+
+.flex-cont1{
+    display: flex;
+    flex-direction: column;
+    background-color: #9bc472;
+    margin: 0 5rem 0 5rem;
+}
+
+.flex-cont11{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-cont12{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-cont2{
+    display: flex;
+    background-color: #cbf6db;
+    flex-direction: column;
+    margin: 0 5rem 0 5rem;
+}
+
+.flex-cont21{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.flex-cont22{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.flex-cont11-item1, .flex-cont11-item2,.flex-cont12-item1, .flex-cont12-item2{
+    background-color: #cbf6db;
+    
+}
+
+.flex-cont11-item1 h2, .flex-cont11-item2 h2,.flex-cont12-item1 h2, .flex-cont12-item2 h2{
+    font-size: 2rem;
+}
+
+.flex-cont11-item1 p, .flex-cont11-item2 p,.flex-cont12-item1 p, .flex-cont12-item2 p,.flex-cont11-item1 p, .flex-cont11-item2 p,.flex-cont12-item1 p, .flex-cont12-item2 p{
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.flex-cont11-item1, .flex-cont11-item2, .flex-cont12-item1, .flex-cont12-item2{
+    width: 24rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.flex-cont12-item1, .flex-cont12-item2{
+    margin-bottom: 3rem;
+}
+
+.flex-cont12-item1, .flex-cont12-item2{
+    margin-top: 3rem;
+}
+
+.item1, .item2, .item3, .item4{
+    background-color: #f5beb4;
+    width: 28rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.pregunta, .respuestas{
+    font-size: 1.6rem;
+}
+
+button{
+    width: 16rem;
+    background-color: #f5beb4;
+    border: none;
+}
+
+button p{
+    font-size: 1.5rem;
+}
+
+.flexButton{
+    display: flex;
+   justify-content: center;
+   margin-bottom: 3rem;
+}
