@@ -1,0 +1,167 @@
+*{
+  font-family: 'Lato', sans-serif;
+  background-color: #f5f0e1;
+  font-size: 1.1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Header Header Header Header"
+    "Header Header Header Header"
+    "AreaTabla AreaTabla AreaTabla AreaTabla"
+    "AreaTabla AreaTabla AreaTabla AreaTabla"
+    "AreaTabla AreaTabla AreaTabla AreaTabla"
+    "AreaIconos AreaIconos AreaIconos AreaIconos";
+    background-color: #f5f0e1;
+}
+
+.Header {
+  margin: 2em;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 1fr 0.1fr 0.70fr 0.1fr;
+  grid-template-rows: auto auto auto auto auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". Nombre Nombre . Foto ."
+    ". Nombre Nombre . Foto ."
+    ". Links Links . Foto ."
+    
+    ;
+  grid-area: Header;
+  margin-left: 1em;
+  background-color: #1e3d69;
+  border-radius: 2em;
+}
+
+.Nombre {
+    grid-area: Nombre;
+    background-color: #1e3d69;
+    color: #f5f0e1;
+  }
+
+ .Nombre p{
+    background-color: #1e3d69;
+    font-size: 2.5em;
+ } 
+
+.Links { 
+  grid-area: Links;
+  background-color: #ff6e40; 
+}
+
+.Links div{
+  background-color: #ff6e40; 
+}
+
+.Links div a, .Links div img,.Links div span{
+  background-color: #ff6e40;
+  padding-top: 2em;
+}
+
+.Foto { grid-area: Foto; }
+
+.AreaTabla {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". Tabla ."
+  ;
+  grid-area: AreaTabla;
+}
+
+.Tabla { 
+    grid-area: Tabla;
+}
+
+.AreaIconos {
+  display: grid;
+  grid-template-columns: 0.02fr 1fr 0.02fr;
+  grid-template-rows: 0.1fr 0.4fr 0.1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". Iconos ."
+    ". . .";
+  grid-area: AreaIconos;
+}
+
+.Iconos { 
+  grid-area: Iconos; 
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffc13b;
+  border-radius: 2em;
+  align-items: center;
+}
+
+th{
+    align-items: left;
+    padding-right: 8em;
+    font-weight: normal;
+}
+
+table{
+    text-align: left;
+    border-spacing: 0em 2em; 
+    border-collapse: separate;
+    padding: 2em;
+    border-radius: 2em;
+}
+
+table, th, td {
+  text-align:left;
+  background-color: #ffc13b;
+}
+
+.linea{
+  padding-right: 60em;
+}
+
+#titulo-tabla{
+  font-weight: bold;
+}
+
+th, td {
+  border-bottom:1px dashed black;
+  border-color: #1e3d69;
+}
+
+img{
+  width: 15px;
+  height: 15px;
+}
+
+.texto-header{
+  display: inline-block;
+}
+
+#foto-avatar{
+  width: 600px;
+  height: 450px;
+}
+
+.item, .item a, .item p{
+  background-color: #ff6e40;
+}
+
+.item{
+  width: 5em;
+  height: 6em;
+  border-radius: 10em;
+  text-align: center;
+  padding: 1em;
+}
+
+ .texto-links{
+  margin-left: 1em;
+}
